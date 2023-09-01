@@ -2,7 +2,7 @@
 # Overview:
 The Coffee Machine Program is a Python script that simulates the operation of a coffee vending machine. It allows users to interact with the machine by selecting drinks from a menu, checking the machine's resources, and making payments for selected drinks.
 
-# Components:
+## Components:
 1. Imported Modules:
 
 Menu: This module provides a menu of available drinks.
@@ -29,13 +29,13 @@ If the input is a valid drink name, the program attempts to prepare the selected
 It first checks if there are sufficient resources available using coffeemaker.is_resource_sufficient(drink).
 If resources are sufficient, it proceeds to handle payment with moneymachine.make_payment(drink.cost).
 If the payment is successful, the program prepares the selected drink using coffeemaker.make_coffee(drink).
-#Usage:
+## Usage:
 1. Run the program to start the coffee machine simulation.
 2. Follow the on-screen prompts to select drinks and manage the machine's resources.
-#Special Commands:
+## Special Commands:
 off: Turn off the coffee machine and exit the program.
 report: Generate and display a resource report.
-#Example Usage:
+## Example Usage:
 Input "latte" to order a latte.
 Input "report" to generate a resource report.
 Input "off" to turn off the coffee machine.
