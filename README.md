@@ -1,8 +1,8 @@
 # oop-coffee-machine
-#Overview:
+# Overview:
 The Coffee Machine Program is a Python script that simulates the operation of a coffee vending machine. It allows users to interact with the machine by selecting drinks from a menu, checking the machine's resources, and making payments for selected drinks.
 
-#Components:
+# Components:
 1. Imported Modules:
 
 Menu: This module provides a menu of available drinks.
